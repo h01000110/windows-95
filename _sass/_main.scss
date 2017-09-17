@@ -156,7 +156,7 @@ ul.topbar {
 	}
 }
 #tag-list {
-    background:transparent url(/assets/img/pixel-alt.png) repeat-y 15px 0;
+    background:transparent url(/windows-95/assets/img/pixel-alt.png) repeat-y 15px 0;
 }
 #tag-list li {
     padding:0 0 0 2px;
@@ -166,7 +166,7 @@ ul.topbar {
     display:block;
 }
 #tag-list li ul li {
-    background:transparent url(/assets/img/pixel-alt.png) repeat-x 0 8px;
+    background:transparent url(/windows-95/assets/img/pixel-alt.png) repeat-x 0 8px;
     margin:4px 0 4px 13px;
     padding:0 0 0 20px;
 }
@@ -393,7 +393,7 @@ ul.topbar {
       width: 16px;
 } /* this targets the default scrollbar (compulsory) */
 ::-webkit-scrollbar-track {
-	background-image: url("/assets/img/track.png");
+	background-image: url("/windows-95/assets/img/track.png");
 	background-repeat: repeat-x repeat-y;
 } /* the new scrollbar will have a flat appearance with the set background color */
  
@@ -413,19 +413,19 @@ ul.topbar {
 	background-repeat: no-repeat;
 
 	&:vertical:decrement {
-		background-image: url("/assets/img/up.png");
+		background-image: url("/windows-95/assets/img/up.png");
 	}
 
 	&:vertical:increment {
-		background-image: url("/assets/img/down.png");
+		background-image: url("/windows-95/assets/img/down.png");
 	}
 
 	&:horizontal:decrement {
-		background-image: url("/assets/img/left.png");
+		background-image: url("/windows-95/assets/img/left.png");
 	}
 
 	&:horizontal:increment {
-		background-image: url("/assets/img/right.png");
+		background-image: url("/windows-95/assets/img/right.png");
 	}
 
 	&:active {
