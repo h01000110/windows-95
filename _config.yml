@@ -1,10 +1,10 @@
 permalink: /:year:month:day/:title
-url: #Your url here
-baseurl: /project
+url: "https://7-qwen.github.io"
+baseurl: /blog
 
 # variables
-name: Your Site Name
-description: Your description here
+name: "齐的Blog"
+description: ""
 google_verification: null
 
 
