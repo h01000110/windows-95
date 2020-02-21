@@ -7,11 +7,16 @@ function numbers () {
 		var num = 0;
 		var select = fields[field].innerText;
 		var select_f = select.split(/\n/);
+
+		// FIXES ISSUE WHERE INLINE CODE BLOCKS / CODE SPANS (CODE THAT IS ONE LINE)
+		// ARE NOT SHOWING UP.
+		if (select_f.length === 1)
+			continue;
+
 		var tab = document.createElement("table");
 
 		// IF YOU USE MARKDOWN AND YOU HAVE BEEN GETTING ONE ADDITIONAL LINE IN YOUR TAG CODE
 		// UNCOMMENT THE SECTION BELOW
-		
 		/* MARKDOWN SECTION /**/
 
 		select_f.splice(-1, 1);
