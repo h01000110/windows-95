@@ -1,10 +1,10 @@
 permalink: /:year:month:day/:title
-url: http://h01000110.github.io/windows-95
+url: https://blogdart.github.io/windows-95/
 baseurl: /
 
 # variables
-name: Your Site Name
-description: Your description here
+name: My Site
+description: my description
 google_verification: null
 
 
