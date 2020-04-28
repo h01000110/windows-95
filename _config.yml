@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
 url: https://blogdart.github.io/windows-95/
-baseurl: /
+baseurl: /windows-95/
 
 # variables
 name: My Site
