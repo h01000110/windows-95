@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Add More Icons"
-tags: tag1 icons
+tag: icons
 ---
 
 # <a name="top"></a>Icon How To Page

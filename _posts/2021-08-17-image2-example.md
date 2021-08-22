@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Image2 Example"
-tags: tag2 icons
+tag: icons
 filetype: image2
 ---
 

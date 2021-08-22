@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Creation Example"
-tags: tag3 icons
+tag: icons
 filetype: creation
 ---
 

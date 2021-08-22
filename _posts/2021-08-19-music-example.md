@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Music Example"
-tags: tag4 icons
+tag: icons
 filetype: music
 ---
 
