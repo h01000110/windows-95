@@ -3,6 +3,7 @@ layout: default
 ---
 <ul>
 	{% for post in site.tags[page.tag] %}
-		<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
+		{% include post-type-ico-file.html %}
+		<li><a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ img_src }}" title="{{ post.title }}" />{{ post.title }}</a></li>
 	{% endfor %}
 </ul>

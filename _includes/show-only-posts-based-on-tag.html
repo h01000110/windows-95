@@ -1,0 +1,16 @@
+<ul>
+  {% comment %}
+    TO ONLY SHOW TAGS WHEN A PAGE IS SELECTED:
+      { for post in site.tags[page.tag] }
+    TO SHOW ALL WHEN A PAGE IS SELECTED:
+      { for post in site.posts }
+
+      NOTE THAT THIS ONLY WORKS WHEN EACH POST ONLY HAS ONE TAG
+      DOES NOT WORK WITH `tags: <TAG> <TAG>` IN FRONTMATTER
+  {% endcomment %}
+
+  {% for post in site.tags[page.tag] %}
+    {% include post-type-ico-file.html %}
+    <li><a href="{{  post.url }}" title="{{ post.title }}"><img src="{{ img_src }}" title="{{ post.title }}" />{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,16 @@
+{% comment %}
+  (*.ico is large icon in top window)
+  DEFAULT ASSIGN FILE ICON IF NONE ASSIGNED.
+  IF STATEMENT FOR EACH TYPE OTHER THAN DEFAULT "FILE.ICO"
+{% endcomment %}
+
+{% assign img_src = "/assets/img/file.ico" %}
+{% if post.filetype == "image" %}
+  {% assign img_src = "/assets/img/image.ico" %}
+{% elsif post.filetype == "image2" %}
+  {% assign img_src = "/assets/img/image2.ico" %}
+{% elsif post.filetype == "creation" %}
+  {% assign img_src = "/assets/img/creation.ico" %}
+{% elsif post.filetype == "music" %}
+  {% assign img_src = "/assets/img/music.ico" %}
+{% endif %}

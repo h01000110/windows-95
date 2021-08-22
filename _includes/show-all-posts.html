@@ -1,0 +1,9 @@
+<ul>
+  {% for post in site.posts %}
+    {% include post-type-ico-file.html %}
+    <li>
+      <a href="{{ post.url }}" title="{{ post.title }}">
+        <img src="{{ img_src }}" title="{{ post.title }}" />{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
