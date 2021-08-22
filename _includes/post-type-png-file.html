@@ -1,0 +1,17 @@
+{% comment %}
+  (*.png is small icon in the bottom window title bar)
+  DEFAULT ASSIGN FILE ICON IF NONE ASSIGNED.
+  IF STATEMENT FOR EACH TYPE OTHER THAN DEFAULT "FILE.PNG"
+{% endcomment %}
+
+{% assign img_src = "/assets/img/file.png" %}
+{% if page.filetype == "image" %}
+  {% assign img_src = "/assets/img/image.png" %}
+{% elsif page.filetype == "image2" %}
+  {% assign img_src = "/assets/img/image2.png" %}
+{% elsif page.filetype == "creation" %}
+  {% assign img_src = "/assets/img/creation.png" %}
+{% elsif page.filetype == "music" %}
+  {% assign img_src = "/assets/img/music.png" %}
+{% endif %}
+<img src="{{ img_src }}" />
