@@ -9,3 +9,15 @@ tag3:
 
 tag4:
   name: tag4
+
+EV3:
+  name: EV3
+
+SPIKEPrime:
+  name: SPIKEPrime
+
+WROsenior:
+  name: WROsenior
+
+RoboCupJrWRL:
+  name: RoboCupJrWRL
