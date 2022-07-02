@@ -1,14 +1,14 @@
 ev3:
   name: ev3
 
-spike:
-  name: spike
+spike-prime:
+  name: spike-prime
 
-wro:
-  name: wro
+wro-senior:
+  name: wro-senior
 
-robocup:
-  name: robocup
+robocup-jr-wrl:
+  name: robocup-jr-wrl
 
 ev3dev-python:
   name: ev3dev-python
