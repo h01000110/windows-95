@@ -1,5 +1,5 @@
-EV3:
-  name: EV3
+ev3:
+  name: ev3
 
 SPIKEPrime:
   name: SPIKEPrime
