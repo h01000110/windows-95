@@ -1,14 +1,14 @@
 ev3:
   name: ev3
 
-SPIKEPrime:
-  name: SPIKEPrime
+spike:
+  name: spike
 
-WROsenior:
-  name: WROsenior
+wro:
+  name: wro
 
-RoboCupJrWRL:
-  name: RoboCupJrWRL
+robocup:
+  name: robocup
 
 tag1:
   name: tag1
