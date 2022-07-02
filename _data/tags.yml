@@ -1,15 +1,3 @@
-tag1:
-  name: tag1
-
-tag2:
-  name: tag2
-
-tag3:
-  name: tag3
-
-tag4:
-  name: tag4
-
 EV3:
   name: EV3
 
@@ -21,3 +9,15 @@ WROsenior:
 
 RoboCupJrWRL:
   name: RoboCupJrWRL
+
+tag1:
+  name: tag1
+
+tag2:
+  name: tag2
+
+tag3:
+  name: tag3
+
+tag4:
+  name: tag4
