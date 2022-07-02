@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Lorem Ipsum"
-tags: ev3dev-python tag2 tag3 tag4
+tags: ev3dev-python tag2
 ---
 
 ## Lorem Ipsum
