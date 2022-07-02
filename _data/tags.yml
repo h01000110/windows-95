@@ -10,8 +10,8 @@ wro:
 robocup:
   name: robocup
 
-tag1:
-  name: tag1
+ev3dev-python:
+  name: ev3dev-python
 
 tag2:
   name: tag2
