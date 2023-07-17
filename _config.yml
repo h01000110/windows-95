@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
 url: #Your url here
-baseurl: /project
+  #baseurl: "" 
 
 # variables
 name: Your Site Name
@@ -20,6 +20,8 @@ sass:
 # Markdown
 markdown: kramdown
 kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    disable : true
+    input: GFM
+    parse_block_html: true
+    syntax_highlighter_opts:
+      disable : true
+

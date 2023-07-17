@@ -1,6 +1,26 @@
+@font-face {
+    font-family: 'Chicago';
+    src: url('/assets/fonts/ChicagoFLF.ttf')
+}
+
+@font-face{
+    font-family: 'SF';
+    src: url('/assets/fonts/SFUIDisplay-Regular.otf')
+}
+
+@font-face{
+    font-family: 'SFbold';
+    src: url('/assets/fonts/SFUIDisplay-Bold.ttf')
+}
+
+@font-face{
+    font-family: 'SFmono';
+    src: url('/assets/fonts/SFMonoRegular.otf')
+}
+
 body {
 	background: #008082;
-	font-family: sans-serif, serif, monospace;
+	font-family: 'SF', monospace;
 	font-size: 13px;
 }
 
@@ -21,6 +41,7 @@ body {
 		color: #bfb8bf;
 		font-size: 14px;
 		font-weight: bold;
+                font-family: 'Chicago';
 	}
 	
 	img {
@@ -32,6 +53,7 @@ body {
 }
 .post_title {
 	h1 {
+                font-family: 'Chicago';
 		display: inline-block;
 	}
 
@@ -49,6 +71,7 @@ body {
 
 		span {
 			font-size: 11px;
+                        font-family: 'Chicago';
 			position: relative;
 			left: 2px;
 			top: -2px;
@@ -56,11 +79,13 @@ body {
 
 		.fa-window-minimize {
 			font-size: 10px;
+                        font-family: 'Chicago';
 			left: 1px;
 		}
 
 		.fa-window-maximize {
 			font-size: 10px;
+                        font-family: 'Chicago';
 			left: 1px;
 		}
 	}
@@ -207,20 +232,54 @@ ul.topbar {
 	}
 
 	h1 {
+                font-family: 'Chicago';
 		font-size: 20px;
 		font-weight: 700;
 		margin: 50px 0 10px 0;
 	}
 
 	h2 {
+                font-family: 'SFbold';
 		font-size: 18px;
 		font-weight: 700;
 		margin: 25px 0 5px 0;
 	}
 
-	em {
-		font-style: italic;
-	}
+        h3 {
+                font-family: 'SFbold';
+                font-size: 15px;
+                font-weight: 500;
+        }
+
+        h4 { 
+                font-family: 'SFbold';
+                font-weight: 500;
+                font-size: 15px;
+        }
+
+        h5 { 
+                font-family: 'SFbold';
+                font-weight: 500;
+                font-size: 15px;
+        }
+
+        h6 { 
+                font-family: 'SFbold';
+                font-weight: 500;
+                font-size: 15px;
+        }
+
+        b, strong {
+                font-family: 'SFbold';
+        }
+
+        em, i {
+                font-style: italic;
+        }
+        
+        code{
+                font-family: 'SFmono';
+        }
 
 	blockquote {
 		padding: 0 0 0 15px;
@@ -304,6 +363,7 @@ ul.topbar {
 		word-break: break-word;
 	}
 }
+
 @media only screen and (max-width: 900px) {
     .content {
         width: 90%;
